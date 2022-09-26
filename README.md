@@ -49,6 +49,6 @@ Reverse shell:<br/>
 `$ java -jar knocker-client.jar -k private-key.pri -rhost 127.0.0.1 -rport 5555 -lhost 127.0.0.1 -lport 4444`
 
 ## Notes
-This port knocker runs on UDP and does not respond using UDP. If the server recieves a valid request matching the key it was supplied as an argument it will execute the command or initiate a reverse connection without a UDP response.
+This port knocker runs on UDP and does not respond using UDP. If the server receives a valid request matching the key it was supplied as an argument it will execute the command or initiate a reverse connection without a UDP response.
 
 
